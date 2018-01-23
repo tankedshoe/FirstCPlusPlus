@@ -19,3 +19,12 @@ void Controller :: start()
 {
     cout << "I am in the start method" << endl;
 }
+
+int Controller :: junkMeUp(int junked)
+{
+    junked = 0;
+    
+    junked += 1;
+    cout << "I am a random method!!" << endl;
+    return junked;
+}

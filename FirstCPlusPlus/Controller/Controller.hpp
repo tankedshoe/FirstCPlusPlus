@@ -16,6 +16,7 @@ class Controller
 public:
     Controller();
     void start();
+    int junkMeUp(int junked);
 };
 
 #endif /* Controller_hpp */
