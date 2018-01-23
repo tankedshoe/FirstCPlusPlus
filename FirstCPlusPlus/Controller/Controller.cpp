@@ -7,3 +7,15 @@
 //
 
 #include "Controller.hpp"
+
+using namespace std;
+
+Controller :: Controller()
+{
+    cout << "I am in the constructor" << endl;
+}
+
+void Controller :: start()
+{
+    cout << "I am in the start method" << endl;
+}
